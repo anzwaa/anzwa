@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1c1c1c; /* Hitam */
+    color: #f5f5f5; /* Warna teks terang untuk kontras */
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+    background-color: rgba(48, 48, 48, 0.9); /* Hitam transparan untuk konten */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    background-color: #4B0082; /* Ungu gelap */
+    color: #fff;
+    padding: 30px 0;
+    text-align: center; /* Rata tengah */
+    border-radius: 10px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+section {
+    margin: 20px 0;
+    text-align: center; /* Rata tengah untuk semua teks di dalam section */
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #BA55D3; /* Ungu terang */
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+ul li strong {
+    font-size: 1.1rem;
+    color: #BA55D3; /* Ungu terang */
+}
+
+section p, ul li p {
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+.profile-pic {
+    width: 150px; /* Ukuran lebar gambar */
+    height: auto; /* Tinggi otomatis agar proporsional */
+    border-radius: 50%; /* Membuat gambar berbentuk bulat */
+    margin-bottom: 15px; /* Jarak bawah gambar */
+    display: block; /* Agar gambar berada di tengah */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: #4B0082; /* Ungu gelap */
+    color: #fff;
+    text-align: center; /* Rata tengah */
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+    color: #BA55D3; /* Ungu terang */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
